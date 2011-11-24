@@ -1,7 +1,9 @@
-# holman.github.com
+# memborsky.github.com #
 
-Hi. This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [zachholman.com](http://zachholman.com). Feel free to browse the source, fork, [ask me questions](http://twitter.com/holman), and post your own compelling blog posts. Because sharing is caring. We're developers, after all.
+Hi. This is a [Jekyll](http://github.com/mojombo/jekyll "Jekyll")-powered blog hosted on [GitHub Pages](http://pages.github.com/ "GitHub Pages") for [memborsky.github.com](http://memborsky.github.com "memborsky on github"). Feel free to browse the source, fork, [ask me questions](http://twitter.com/memborsky), and post your own compelling blog posts. Because sharing is caring. We're developers, after all.
 
 Cheers!
 
-- Zach
+- Matt
+
+_ninja'd from [@holman](https://github.com/holman "@holman")_
