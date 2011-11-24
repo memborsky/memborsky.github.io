@@ -4,4 +4,4 @@ title: "Matt Emborsky"
 ---
 Stay tuned for a content explosion!
 
-Check out more information [about](/about/ "about memborsky") [Matt](https://github.com/memborsky "memborsky on github") [Emborsky](https://twitter.com/memborsky) on his [about](/about/ "about memborsky") page.
+You find more infomration [about](/about/ "about memborsky") [me](https://twitter.com/memborsky) on my [about](/about/ "about memborsky") page.
