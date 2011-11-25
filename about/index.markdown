@@ -8,6 +8,7 @@ title: "About Matt Emborsky"
 - 27 years old.
 - currently residing in Indiana.
 - a software developer with experience programming in Ada, Python, PHP, and MySQL.
+- a lover of github.
 
 You can check out more about Matt Emborsky on [github](https://github.com/memborsky "memborsky on github"), [twitter](https://twitter.com/memborsky "memborsky on twitter"), or you can [email](mailto:memborsky@gmail.com "memborsky on email") him.
 
