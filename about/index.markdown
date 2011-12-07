@@ -5,7 +5,7 @@ title: "About Matt Emborsky"
 **Roughly, _Matt Emborsky_** is:
 
 - unemployed.
-- 27 years old.
+- 26 years old.
 - currently residing in Indiana.
 - a software developer with experience programming in Ada, Python, PHP, and MySQL.
 - a lover of [github](https://github.com/ "github").
