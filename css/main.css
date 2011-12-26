@@ -14,7 +14,7 @@ a:hover { border-color: #FF5E5E; }
 #header { font-family: Helvetica, sans-serif; }
 /*#header #myname { background-image: url("/images/name.png"); }*/
 /*#header a #myname { color: #3C3D36; }*/
-#header .avatar { opacity: 0.8; }
+#header .avatar { opacity: 0.6; }
 #header .avatar:hover { opacity: 1; }
 
 nav { font-size: 16px; font-weight: bold; }
