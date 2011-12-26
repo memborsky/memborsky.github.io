@@ -16,8 +16,7 @@
     <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/emborsky" />
     -->
 
-    <link rel="stylesheet" href="/css/layout.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
     {% for css in page.css %}<link rel="stylesheet" href="/css/{{ css }}.css" type="text/css" />{% endfor %}
     <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
@@ -54,23 +53,19 @@
 <body>
 
     <div id="header">
+        <img src="/images/name.png" alt="name" id="myname" />
         <a href="/" title="Go to homepage.">
-            <img src="https://secure.gravatar.com/avatar/62a580b4d4fc3a9654814e6cf4f6e835?s=200" width="90" height="90" class="avatar" alt="my avatar" />
+            <img src="https://secure.gravatar.com/avatar/62a580b4d4fc3a9654814e6cf4f6e835?s=400" width="100" height="100" class="avatar" alt="my avatar" />
         </a>
-
-        <div id="sections">
-            <span>Sections:</span>
-            <ul>
-                <li><a href="/about/" title="About Matt Emborsky">about</a></li>
-                <!-- <li><a href="/projects/" title="My Projects">projects</a></li> -->
-            </ul>
-
-            <span>I'm on the Web:</span>
-            <ul>
-                <li><a href="https://github.com/memborsky" id="github" title="memborsky on github">github</a></li>
-                <li><a href="https://twitter.com/memborsky" id="twitter" title="memborsky on twitter">twitter</a></li>
-                <li><a href="http://coderwall.com/memborsky" id="coderwall" title="memborsky on coderwall">coderwall</a></li>
-                <li><a href="http://www.linkedin.com/in/memborsky" id="linkedin" title="memborsky on linkedin">linkedin</a></li>
-            </ul>
-        </div>
     </div>
+
+     <nav>
+        <ul>
+            <li><a href="/about/" title="About Matt Emborsky">About</a></li>
+            <!-- <li><a href="/projects/" title="My Projects">Projects</a></li>  -->
+            <li><a href="https://github.com/memborsky" id="github" title="memborsky on github">GitHub</a></li>
+            <li><a href="https://twitter.com/memborsky" id="twitter" title="memborsky on twitter">Twitter</a></li>
+            <li><a href="http://coderwall.com/memborsky" id="coderwall" title="memborsky on coderwall">Coderwall</a></li>
+            <li><a href="http://www.linkedin.com/in/memborsky" id="linkedin" title="memborsky on linkedin">LinkedIn</a></li>
+        </ul>
+    </nav>
