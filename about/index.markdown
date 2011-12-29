@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "About Matt Emborsky"
+
+tagline: "Matt Emborsky"
 ---
 **Roughly, _Matt Emborsky_** is:
 
