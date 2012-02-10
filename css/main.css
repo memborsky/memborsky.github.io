@@ -4,36 +4,45 @@
 Current theme = ""
 
 */
-body { background-color: #556270; color: #3C3D36; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; -webkit-font-smoothing: antialiased; }
+body { background-color: #FCFBE3; color: #3C3D36; font-family: "Share", cursive; -webkit-font-smoothing: antialiased; }
 img { border: none; }
 
 /* Links */
 a { text-decoration: none; color: #FF5E5E; border-bottom: 1px solid #190A11; }
 a:hover { border-color: #FF5E5E; }
 
-#header { font-family: Helvetica, sans-serif; }
-/*#header #myname { background-image: url("/images/name.png"); }*/
-/*#header a #myname { color: #3C3D36; }*/
+header { background-color: #556270; font-size: 16px; font-weight: bold; }
+header a#myname { font-family: "Kaushan Script", cursive; font-size: 32px; color: #FCFBE3; border-bottom: 0px; opacity: 1; }
+header a { opacity: 0.6; border-bottom: 0; }
+header a:hover { opacity: 1; }
+/*
 #header .avatar { opacity: 0.6; }
 #header .avatar:hover { opacity: 1; }
 
 nav { font-size: 16px; font-weight: bold; }
 nav ul { background-color: #3C3D36; }
 nav li a { border-bottom: 0; }
-
-.content { background-color: #FCFBE3; }
+*/
 
 
 
 /* Position. */
-body { margin: 0 auto; width: 800px; }
+body { margin: 0 auto; }
 
-#header { position: relative; width: 100%; }
-#header #myname { position: absolute; top: 5px; right: -120px; }
+header { position: fixed; height: 70px; width: 100%; z-index: 4; }
+header a#myname { position: absolute; left: 40%; top: 10px; }
+header nav#pages { position: fixed; top: 5px; left: 30px; float: left; }
+header nav#social { position: absolute; top: 5px; right: 30px; float: right }
+
+header nav { position: relative; }
+header nav ul { position: absolute; text-align: left, float: left; list-style: none; margin: 0; padding: 0; top: 20px; }
+header nav li { margin-left: 5px; }
+/*
 #header .avatar { position: absolute; top: 5px; left: -110px; border-radius: 5px; -webkit-box-shadow: 0px 0px 15px #000; }
 
 nav { position: relative; }
 nav ul { position: absolute; top: 110px; left: -110px; text-align: center; float: left; list-style: none; width: 100px; margin: 0; padding: 0; }
 nav li { margin-top: 5px; }
+*/
 
-.content { position: relative; top: 5px; padding: 1px 10px; min-height: 700px; }
+.content { position: absolute; top: 70px; padding: 1px 10px; width: 800px; z-index: 2; }
