@@ -12,9 +12,9 @@ a { text-decoration: none; color: #FF5E5E; border-bottom: 1px solid #190A11; }
 a:hover { border-color: #FF5E5E; }
 
 header { background-color: #556270; font-size: 16px; font-weight: bold; }
-header a#myname { font-family: "Kaushan Script", cursive; font-size: 32px; color: #FCFBE3; border-bottom: 0px; opacity: 1; }
-header a { opacity: 0.6; border-bottom: 0; }
-header a:hover { opacity: 1; }
+header span#myname a { font-family: "Kaushan Script", cursive; font-size: 32px; color: #FCFBE3; }
+header a { opacity: 1; border-bottom: 0; }
+header a:hover { opacity: 0.6; }
 /*
 #header .avatar { opacity: 0.6; }
 #header .avatar:hover { opacity: 1; }
@@ -30,7 +30,7 @@ nav li a { border-bottom: 0; }
 body { margin: 0 auto; }
 
 header { position: fixed; height: 70px; width: 100%; z-index: 4; }
-header a#myname { position: absolute; left: 40%; top: 10px; }
+header #myname { position: absolute; width: 100%; top: 10px; text-align: center; }
 header nav#pages { position: fixed; top: 5px; left: 30px; float: left; }
 header nav#social { position: absolute; top: 5px; right: 30px; float: right }
 
