@@ -6,4 +6,4 @@ Cheers!
 
 - Matt
 
-_ninja'd from [@holman](https://github.com/holman "@holman")_
+_[@holman](https://github.com/holman "@holman") - Original thanks to him._
